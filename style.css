@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars during the loading screen */
+   
+}
+
+
+.hello.active {
+    opacity: 1;
+    bottom:0px;
+    transition: ease-in-out 0.5s;
+}
+
+.hello.fade {
+    bottom: 150px;
+    opacity:0;
+    transition: ease-in-out 2s;
+}
+
+
+
+.main-content{
+    position: flex;
+    background-image: url(images/cyber.webp);
+    background-position: center;
+    z-index: 1;
+}
+
+.header{
+  font-family: "Michroma", sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+.Search-Button-Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+    
+}
+
+
+.search-bar {
+    width: 100%; /* Takes up 100% of the width of its container */
+    max-width: 400px; /* But will not be wider than 400px */
+    padding: 15px; /* Adds 15 pixels of space inside the search bar */
+    border: 2px solid #395a64; /* A solid cyan border that is 2 pixels thick */
+    border-radius: 25px; /* Rounds the corners of the border with a 25-pixel radius */
+    font-size: 16px; /* Sets the text size inside the search bar to 16 pixels */
+    background: rgba(0, 0, 0, 0.6); /* A semi-transparent black background (60% opacity) */
+    color: #f7f0f4; /* The text color inside the search bar is cyan */
+    box-shadow: 0 0 20px rgba(13, 213, 116, 0.6); /* Adds a glow effect around the search bar */
+    transition: all 0.3s ease; /* Makes changes to the search bar smooth over 0.3 seconds */
+    position: relative; /* Positions the search bar relative to its normal position */
+    cursor: pointer;
+
+}.search-bar:focus {
+    border-color: #ff00ff; /* Changes the border color to pink when the search bar is focused (clicked or typed into) */
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.9); /* Intensifies the glow effect to pink when focused */
+    outline: none; /* Removes the default outline that browsers add when an element is focused */
+}
+
+
+.search-bar::placeholder {
+    color: #aaa;
+    font-weight: bold;
+}
+
+.search-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.3); /* Inner glow */
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.search-bar:focus::after {
+    opacity: 0;
+}
+
+.button {
+    background-color: #00ff00; /* Bright green button */
+    color: #000;
+    cursor: pointer;
+    border: 2px solid #00ff00;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    animation: pulse 1s infinite; 
+}
+
+.button:hover {
+    background-color: #000;
+    color: #00ff00;
+    border-color: #ff0000; /* Change border color on hover */
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+
+.second-Search{
+  display: none;
+}
+
+.loading-Screen {
+    display: none; /* Initially hidden */
+    width: 100vw;
+    height: 100vh;
+    background-color: #135d88;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+}
+
+
+
+.plane{
+    position: absolute; /* Ensure it's positioned within its parent */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: rotate(90deg);
+    animation: shake 0.4s infinite;
+}
+@keyframes shake {
+    0% { transform: translatey(0) rotate(90deg); }
+    25% { transform: translatey(-5px) rotate(90deg); }
+    50% { transform: translatey(5px) rotate(90deg); }
+    75% { transform: translatey(-5px) rotate(90deg); }
+    100% { transform: translatey(0) rotate(90deg); }
+}
+
+
+
+
+.black-line1{
+    margin-top: -200px;
+    width: 300px;
+    height: 2px;
+    background-color: #e4dddd;
+    animation: moveLine 0.5s infinite;
+}
+
+.black-line2{
+    margin-top: 280px;
+    width: 300px;
+    height: 2px;
+    background-color: #a05184;
+    animation: moveLine 0.5s infinite;
+}
+
+.black-line3{
+    margin-top: -170px;
+    width: 300px;
+    height: 2px;
+    background-color: #0849aa;
+    animation: moveLine 0.5s infinite;
+}
+
+.black-line4{
+    margin-top: 180px;
+    width: 300px;
+    height: 2px;
+    background-color: #790303;
+    animation: moveLine 0.5s infinite;
+}
+
+@keyframes moveLine {
+    0% {
+        transform: translateX(100vw); 
+    } 
+    100% {
+        transform: translateX(-100vw); 
+    }
+}
+
+.Loading-bar{
+    color: rgb(228, 161, 18);
+    font-weight: bold;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 40px;
+
+}
+.bouncing-ball{
+  
+    width: 20px; /* Width of the circle */
+    height: 20px; /* Height of the circle */
+    background-color: #faa031; /* Color of the circle */
+    border-radius: 50%; /* This makes the shape a circle */
+    gap: 5px;
+    margin-left: 75px;
+    animation: bounce 1.5s cubic-bezier(0.22, 0.80, 0.30, 0.22) infinite;
+    z-index: 3;
+}
+
+
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0) scaleY(0.5);
+      background-color: #faa031;
+  }
+  20% {
+      transform: translateY(-40px); 
+     }
+  50% {
+      transform: translateY(-30px); 
+  }
+  70% {
+      transform: translateY(-20px); 
+  }
+  80% {
+      transform: translateY(-10px) ; 
+  }
+}
+
+.loading-container{
+  margin-top: 400px;
+}
+
+.continue-button{
+  display: none;
+  color: #00ff00;
+}
+
+
+.user-screen {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;/* Cover the entire element */
+  background-size: contain; /* Fit the image inside the element */
+  background-size: 100% 100%; /* Stretch to fit the element’s dimensions */
+
+  color: #00ff00; /* Bright green text for visibility */
+  display: none; /* Hidden by default */
+  width: 100vw;
+  height: 100vh;
+
+   /* Ensure it covers the whole viewport */
+ 
+}
+
+
+.clock {
+  color: #060202; /* Bright green clock */
+  font-family: "Michroma", sans-serif;
+  font-size: 35px;
+  font-weight:bolder;
+  margin-top:180px;
+  margin-left: 560px;
+  
+  
+}

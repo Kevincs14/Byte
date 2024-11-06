@@ -1,0 +1,123 @@
+{
+    "america": {
+      "new york": "countries/newYork.gif",
+      "los angeles": "images/losAngeles.gif",
+      "chicago": "images/chicago.gif",
+      "houston": "images/houston.gif",
+      "miami": "images/miami.gif",
+      "san francisco": "images/sanFrancisco.gif",
+      "boston": "images/boston.gif",
+      "washington": "images/washington.gif",
+      "seattle": "images/seattle.gif",
+      "philadelphia": "images/philadelphia.gif",
+      "atlanta": "images/atlanta.gif",
+      "san diego": "images/sanDiego.gif",
+      "default": "images/globe.webp"
+    },
+    "europe": {
+      "london": "images/london.gif",
+      "paris": "images/paris.gif",
+      "berlin": "images/berlin.gif",
+      "madrid": "images/madrid.gif",
+      "rome": "images/rome.gif",
+      "amsterdam": "images/amsterdam.gif",
+      "vienna": "images/vienna.gif",
+      "brussels": "images/brussels.gif",
+      "lisbon": "images/lisbon.gif",
+      "prague": "images/prague.gif",
+      "stockholm": "images/stockholm.gif",
+      "copenhagen": "images/copenhagen.gif",
+      "default": "images/globe.webp"
+    },
+    "asia": {
+      "tokyo": "countries/toyko.gif",
+      "beijing": "countries/beijing.png",
+      "hong kong": "countries/hongKong.jpg",
+      "seoul": "images/seoul.gif",
+      "bangkok": "images/bangkok.gif",
+      "singapore": "images/singapore.gif",
+      "delhi": "images/delhi.gif",
+      "mumbai": "images/mumbai.gif",
+      "kuala lumpur": "images/kualaLumpur.gif",
+      "jakarta": "images/jakarta.gif",
+      "manila": "images/manila.gif",
+      "default": "countries/asia.jpg"
+    },
+    "australia": {
+      "sydney": "countries/australia.jpg",
+      "melbourne": "images/melbourne.gif",
+      "brisbane": "images/brisbane.gif",
+      "perth": "images/perth.gif",
+      "adelaide": "images/adelaide.gif",
+      "hobart": "images/hobart.gif",
+      "canberra": "images/canberra.gif",
+      "gold coast": "images/goldCoast.gif",
+      "newcastle": "images/newcastle.gif",
+      "central coast": "images/centralCoast.gif",
+      "darwin": "images/darwin.gif",
+      "sunshine coast": "images/sunshineCoast.gif",
+      "default": "countries/australia.jpg"
+    },
+    "africa": {
+      "cairo": "images/cairo.gif",
+      "lagos": "images/lagos.gif",
+      "johannesburg": "images/johannesburg.gif",
+      "nairobi": "images/nairobi.gif",
+      "cape town": "images/capeTown.gif",
+      "addis ababa": "images/addisAbaba.gif",
+      "accra": "images/accra.gif",
+      "casablanca": "images/casablanca.gif",
+      "algiers": "images/algiers.gif",
+      "kigali": "images/kigali.gif",
+      "abidjan": "images/abidjan.gif",
+      "tunis": "images/tunis.gif",
+      "default": "images/globe.webp"
+    },
+    "antarctica": {
+      "mcmurdo station": "images/mcmurdo.gif",
+      "palmer station": "images/palmer.gif",
+      "union glacier": "images/unionGlacier.gif",
+      "neumayer station": "images/neumayer.gif",
+      "south pole station": "images/southPole.gif",
+      "bird station": "images/bird.gif",
+      "theodore d. taube station": "images/taube.gif",
+      "default": "images/globe.webp"
+    },
+    "north america": {
+      "toronto": "images/toronto.gif",
+      "vancouver": "images/vancouver.gif",
+      "montreal": "images/montreal.gif",
+      "calgary": "images/calgary.gif",
+      "ottawa": "images/ottawa.gif",
+      "mexico city": "images/mexicoCity.gif",
+      "new york": "images/newYork.gif",
+      "los angeles": "images/losAngeles.gif",
+      "chicago": "images/chicago.gif",
+      "houston": "images/houston.gif",
+      "miami": "images/miami.gif",
+      "san francisco": "images/sanFrancisco.gif",
+      "default": "images/globe.webp"
+    },
+    "south america": {
+      "sao paulo": "images/saoPaulo.gif",
+      "rio de janeiro": "images/rioDeJaneiro.gif",
+      "buenos aires": "images/buenosAires.gif",
+      "santiago": "images/santiago.gif",
+      "bogota": "images/bogota.gif",
+      "lima": "images/lima.gif",
+      "caracas": "images/caracas.gif",
+      "quito": "images/quito.gif",
+      "asuncion": "images/asuncion.gif",
+      "montevideo": "images/montevideo.gif",
+      "salvador": "images/salvador.gif",
+      "default": "images/globe.webp"
+    }
+  }
+  
+
+
+
+
+
+
+
